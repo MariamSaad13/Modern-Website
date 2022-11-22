@@ -1,0 +1,139 @@
+ *{
+     padding: 0;
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    margin: auto;
+    width: 1170px;
+    background-color: yellowgreen;
+}
+body{
+    background: linear-gradient(rgba(119, 115, 115, 0.6),rgba(0,0,0,0.6)) 
+    ,url(../images/aa.webp);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba(0,0,0,0.3);
+    transition: all 0.3s;
+}
+.navbar li{
+    width: 80px;
+list-style-type: none;
+margin-right: 10px;
+}
+.navbar a{
+     text-decoration: none;
+     color: azure;
+}
+.navbar li a:hover{
+    background: rgb(53, 49, 49);;
+}
+.navbar h1{
+    margin-right: 53%;
+    color: azure;
+}
+.welcometext{
+    position: absolute;
+    margin: 12% 18%;
+    text-align: center;
+    color: azure;   
+}
+
+.welcometext h1{
+    margin-left: 4%;
+}
+.welcometext p{
+    margin-top: 10px;
+}
+input{
+    background: none;
+   
+    margin-left: 37px;
+    color: azure;
+    height:  30px;
+    padding-left: 6px;
+    margin-top: 15px;
+    
+}
+textarea{
+     background: none;
+     margin-top: 20px;
+     margin-bottom: 3%;
+     margin-left: 100px;
+     margin-right: 70px;
+     color: azure;
+     font-size: larger;
+}
+button{
+    margin-bottom: 60px;
+    margin-left: 55px;
+    width: 100px;
+    background-color: grey;
+    height: 50px;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 10%;
+}
+button:hover{
+    background: rgb(53, 49, 49);
+   
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    color:azure;
+    background-color: rgb(30, 26, 26);
+    width: 100%;
+    height: 60px;
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: center;
+}
+.footer p{
+    margin-left: 10px;
+}
+.footer i{
+    margin-left: 100px;
+} 
+::placeholder{
+    color: rgb(240,255,255,0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

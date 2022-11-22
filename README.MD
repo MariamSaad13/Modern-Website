@@ -1,0 +1,1 @@
+This a a simple design for a modern website acheived through HTML, CSS and JS.
